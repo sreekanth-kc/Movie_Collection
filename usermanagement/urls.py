@@ -4,5 +4,5 @@ from usermanagement.views import (
 )
 
 urlpatterns = [
-    url(r'^register$', Register.as_view(), name='register')
+    url(r'^register', Register.as_view(), name='register')
 ]
