@@ -52,6 +52,7 @@ docs/_build/
 *.pyc
 .idea/
 static/
-migrations/
+migrations/*
+!migrations/__init__.py
 rentsel/settings/local.py
 sendgrid.env
